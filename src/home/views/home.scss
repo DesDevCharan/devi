@@ -1,0 +1,109 @@
+
+
+.homesection1{
+  #storyhead{
+    @extend .maketextgold;
+    font-size: x-large;
+  }
+  .storyhead4{
+    color: $rr-gold-darker;
+    font-size: medium;
+    //font-weight: lighter !important;
+  }
+}
+
+.contents3col{
+  h3{
+    color: $rr-gold-dark;
+    float: left;
+    text-align: left;
+    font-size: x-large;
+  }
+
+  h4{
+    line-height: 1.5;
+    color: $rr-gold-darker;
+    float: left;
+    text-align: left;
+    //font-weight: normal;
+    font-size: large;
+  }
+
+  }
+
+.carousel-caption{
+  //font-size: large;
+  //font-family: "Segoe UI Light" !important;
+  h5{
+    font-size: small;
+  }
+  span{
+    font-size: large;
+    font-weight: bold;
+  }
+}
+
+
+//***************************Upadevatas div*********************************************
+.upadevatasdiv{
+  background-color: whitesmoke;
+
+  h3{
+    font-size: x-large;
+    color: $rr-gold-dark;
+  }
+  h4{
+    font-size: large;
+    color: $rr-gold-darker;
+    //font-weight: lighter;
+  }
+
+  .panel{
+    background-color: transparent !important;
+  }
+
+  .panel-body{
+    background-color: transparent !important;
+    i{
+      color:$rr-gold-darker;
+      //font-size: 100px;
+    }
+    h3{
+      font-size: x-large;
+      color: $rr-gold-darker;
+    }
+    hr{
+      border-bottom: 1px solid $rr-gold-dark;
+      width:50%;
+    }
+    p{
+      font-size: large;
+      color:$rr-gold-darker;
+      //font-size: medium;
+      //font-weight: normal;
+    }
+  }
+
+}
+
+
+
+@media (min-width: 768px) {
+  .modal-dialog {
+    width: 600px;
+    margin: 30px auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .modal-lg {
+    width: 900px;
+  }
+}
+
+@media (min-width: 768px) {
+  .modal-xl {
+    width: 90%;
+   max-width:1200px;
+  }
+}
